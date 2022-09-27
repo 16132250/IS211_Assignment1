@@ -5,7 +5,6 @@ class Book:
         self.author = author
         self.title = title
 
-
     def display(self):
         print(f'{self.title}, written by {self.author}')
 
