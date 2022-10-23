@@ -1,6 +1,6 @@
 
 class ListDivideException(Exception):
-    pass
+    def __init__(self):
 
 def list_divide(numbers, divide=2):
     """

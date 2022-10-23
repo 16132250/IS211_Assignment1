@@ -8,11 +8,9 @@ class Book:
     def display(self):
         print(f'{self.title}, written by {self.author}')
 
-
-oman = Book('John Steinbeck','Of Mice and Men')
-tkam = Book('Harper Lee','To Kill a Mockingbird')
-
-
 if __name__ == "__main__":
+    oman = Book('John Steinbeck', 'Of Mice and Men')
+    tkam = Book('Harper Lee', 'To Kill a Mockingbird')
+
     Book.display(oman)
     Book.display(tkam)
