@@ -1,10 +1,11 @@
 
 class ListDivideException(Exception):
     def __init__(self):
+        pass
 
 def list_divide(numbers, divide=2):
     """
-    The function returns the number of elements in the numbers list that are divisibleby divide
+    The function returns the number of elements in the numbers list that are divisible by divide
     """
     try:
         divide_count = 0
